@@ -62,6 +62,10 @@ enum MyBlendMode: String, CaseIterable {
     }
 }
 
+/* This code is borrowed from:
+   https://git.kabellmunk.dk/prototyping-custom-ui-in-swiftui-talk/custom-ui-prototype-in-swiftui/blob/master/Custom%20UI%20Prototype/ContentView.swift#L57
+   Thanks!
+ */
 extension Slider where ValueLabel == EmptyView {
     init<T: BinaryInteger>(value: Binding<T>, in range: ClosedRange<T>, @ViewBuilder label: () -> Label) {
         self = Slider(value: .init(get: {
