@@ -25,3 +25,14 @@ It would have been nice to use proportionate sizes for the petals, but I know to
 Also I would have liked to add a color picker. :-)
 
 I knew up front that I would not have time to add the quickly fading phantom image that appears when the flower is closing in the original animation.
+
+## Epilogue
+
+After the challenge, I have spent yet another hour of playing around - and it's so much fun!
+Please checkout out the branch 'playingaround' for more experiments.
+
+I have learned to make animations local to specific actions and even to specific bindings! How cool is that?
+
+I have made petal counts, color, opacity and blend modes adjustable among other things.
+
+Looking forward to playing with it even more! :-)
