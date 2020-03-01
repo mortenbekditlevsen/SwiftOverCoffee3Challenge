@@ -29,7 +29,7 @@ I knew up front that I would not have time to add the quickly fading phantom ima
 ## Epilogue
 
 After the challenge, I have spent yet another hour of playing around - and it's so much fun!
-Please checkout out the branch 'playingaround' for more experiments.
+Please checkout out the branch 'playingaround' for these experiments that I didn't do within the time limit of the challenge.
 
 I have learned to make animations local to specific actions and even to specific bindings! How cool is that?
 
