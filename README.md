@@ -33,6 +33,14 @@ Please checkout out the branch 'playingaround' for these experiments that I didn
 
 I have learned to make animations local to specific actions and even to specific bindings! How cool is that?
 
+And I have learned that `ForEach` with a `Range` is only intended to be used with constants, but it's really easy to change the code to use ranges in a way that works with variables. Just add an `id: \.self` parameter as such:
+
+```
+                ForEach(0 ..< count, id: \.self) { index in
+                    ...
+                }
+```
+
 I have made petal counts, color, opacity and blend modes adjustable among other things.
 
 Looking forward to playing with it even more! :-)
