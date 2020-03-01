@@ -23,7 +23,9 @@ struct ContentView: View {
     // TODO: Add a color picker
     let color = Color(red: 0.7, green: 0.8, blue: 1)
 
-    var count: Int = 10
+    // TODO: Add count slider
+    var count: Int = 5
+
     var body: some View {
         VStack {
             ZStack {
