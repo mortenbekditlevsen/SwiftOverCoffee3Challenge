@@ -2,7 +2,7 @@
 
 ## Considerations
 
-I used Xcode 11.4 beta to get the best error messaged - based on suggestion on Swift over Coffee. :-)
+I used Xcode 11.4 beta to get the best error messages - based on suggestion on Swift over Coffee. :-)
 
 Adding all the sliders was inspired by the excellent dotSwift talk by Tobias Due Munk.
 
@@ -20,4 +20,8 @@ I found it a bit annoying that the compiler could not infer the type in the spec
 
 I didn't have time to add a `Slider` for the petal count. I did not really know the best place to 'map' the floating point values from a slider to integral ones.
 
+It would have been nice to use proportionate sizes for the petals, but I know too little about relative sizing and was not prepared to wrestle with GeometryReader.
+
 Also I would have liked to add a color picker. :-)
+
+I knew up front that I would not have time to add the quickly fading phantom image that appears when the flower is closing in the original animation.
