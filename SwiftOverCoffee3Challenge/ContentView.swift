@@ -146,19 +146,19 @@ struct ContentView: View {
                     }
 
                     Text("Minimum size")
-                    Slider(value: $minimumSize, in: 10...250)
+                    Slider(value: $minimumSize, in: 10 ... 250)
                     Text("Maximum size")
-                    Slider(value: $maximumSize, in: 10...250)
+                    Slider(value: $maximumSize, in: 10 ... 250)
 
                     Text("Maximum rotation")
-                    Slider(value: $maxRotation, in: 0...720)
+                    Slider(value: $maxRotation, in: 0 ... 720)
                 }
                 Group {
                     Text("Offset ratio")
-                    Slider(value: $offsetRatio, in: 0...10)
+                    Slider(value: $offsetRatio.animation(Animation.default.speed(0.3)), in: 0 ... 10)
 
                     Text("Animation speed")
-                    Slider(value: $animationSpeed, in: Double(0) ... 1)
+                    Slider(value: $animationSpeed, in: 0 ... 1)
 
                 }
                 Group {
@@ -182,11 +182,12 @@ struct ContentView: View {
         }
         .background(Color.black)
         }
+        .environment(\.colorScheme, .dark)
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView().environment(\.colorScheme, .dark)
+        ContentView()
     }
 }
