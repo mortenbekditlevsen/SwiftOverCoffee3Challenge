@@ -1,6 +1,8 @@
 # SwiftOverCoffee3Challenge
 
-![Flower](flower11.mov)
+Apologies for the choppy gif. Have a look at the mov files instead!  :-) 
+
+<img src="https://j.gifs.com/71wM6w.gif" width="300" />
 
 ## Considerations
 
@@ -48,9 +50,3 @@ And I have learned that `ForEach` with a `Range` is only intended to be used wit
 I have made petal counts, color, opacity and blend modes adjustable among other things.
 
 Looking forward to playing with it even more! :-)
-
-UPDATE:
-
-Me playing around a bit more:
-
-![Update](flower13.mov)
