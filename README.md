@@ -1,6 +1,6 @@
 # SwiftOverCoffee3Challenge
 
-<img src="https://j.gifs.com/Mw2X8Q.gif" width="300" />
+<img src="https://j.gifs.com/71wM6w.gif" width="300" />
 
 ## Considerations
 
