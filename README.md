@@ -1,5 +1,7 @@
 # SwiftOverCoffee3Challenge
 
+<img src="https://gifs.com/gif/flower-Mw2X8Q" width="300" />
+
 ## Considerations
 
 I used Xcode 11.4 beta to get the best error messages - based on suggestion on Swift over Coffee. :-)
@@ -14,7 +16,9 @@ I quickly ended up with expressions that could not be type checked in a reasonab
 I tried to refactor the calculations to happen in the beginning of each `ForEach` loop, but I could not make that work. 
 I ended up moving the calculations to a function instead.
 
-I found it a bit annoying that the compiler could not infer the type in the specified ranges when using a `Slider`. It would look nicer if you didn't have to add explicit types to the ranges.
+I found it a bit annoying that the compiler could not infer the type in the specified ranges when using a `Slider`. It would look nicer if you didn't have to add explicit types to the ranges. UPDATE: The compiler _could_ in fact infer the types - I don't know why I couldn't make it work in the first place.
+
+I was initially quite a bit annoyed with how animations worked, since I thought they had to be applied on the thing you wished to animate. *Mind blown* when I figured out how to do `withAnimation` as well as doing animations directly in bindings!
 
 ## Time constraints 
 
