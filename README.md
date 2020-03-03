@@ -1,5 +1,7 @@
 # SwiftOverCoffee3Challenge
 
+Apologies for the choppy gif. :-)
+
 <img src="https://j.gifs.com/71wM6w.gif" width="300" />
 
 ## Considerations
